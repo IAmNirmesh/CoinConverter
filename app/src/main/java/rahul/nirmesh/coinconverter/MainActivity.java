@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView coinImage;
     TextView toTextView;
 
-    String[] money = {"USD", "EUR", "GBP", "INR"};
-    String[] coin = {"BTC", "ETH", "ETC", "DASH", "MAID", "XEM", "AUR", "LTC", "XMR", "XRP"};
+    String[] money = {"Select Your Currency", "USD", "EUR", "GBP", "INR"};
+    String[] coin = {"Select Your Coin", "BTC", "ETH", "ETC", "DASH", "MAID", "XEM", "AUR", "LTC", "XMR", "XRP"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

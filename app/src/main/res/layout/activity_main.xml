@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/shape_gradient"
     tools:context="rahul.nirmesh.coinconverter.MainActivity">
 
     <RelativeLayout
@@ -59,7 +60,9 @@
 
             <TextView
                 android:text="From"
-                android:textSize="16sp"
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
                 android:textColor="@color/colorAccent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -75,7 +78,9 @@
 
             <TextView
                 android:text="To"
-                android:textSize="16sp"
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
                 android:textColor="@color/colorAccent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -118,18 +123,18 @@
 
                 <ImageView
                     android:id="@+id/coinImage"
-                    android:layout_weight="1"
+                    android:layout_weight="2"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="50dp" />
 
                 <TextView
                     android:id="@+id/toTextView"
                     android:textSize="20sp"
                     android:textColor="@color/colorAccent"
-                    android:layout_weight="9"
+                    android:layout_weight="8"
                     android:layout_gravity="center_vertical"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="50dp" />
 
             </LinearLayout>
 
